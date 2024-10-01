@@ -1,0 +1,15 @@
+## Task list
+- [ ] <span style="font-size:20px">Initialize project.</span>
+- [ ] <span style="font-size:20px">Set up eslint to throw errors if any type is used.</span>
+- [ ] <span style="font-size:20px">Set up [eslint-plugin-react-compiler](https://www.npmjs.com/package/eslint-plugin-react-compiler).</span>
+- [ ] <span style="font-size:20px">Integrate Prettier for code formatting.</span>
+- [ ] <span style="font-size:20px">Add Husky and configure it to run linting on pre-commit.</span>
+- [ ] <span style="font-size:20px">Add lint and format:fix npm scripts.</span>
+- [ ] <span style="font-size:20px">Integrate [https://pokeapi.co/](https://pokeapi.co/) API.</span>
+- [ ] <span style="font-size:20px">Set up three sections: header, main and footer.</span>
+- [ ] <span style="font-size:20px">Place search input and search button at the top section.</span>
+- [ ] <span style="font-size:20px">Main section should be used for displaying search results.</span>
+- [ ] <span style="font-size:20px">If input is empty, get all data.</span>
+- [ ] <span style="font-size:20px">Save search value to the Local Storage.</span>
+- [ ] <span style="font-size:20px">Implement Spinner, Skeleton, Loading Bar, Blurring Content, or any other appropriate method to indicate that app makes a request to the server API.</span>
+- [ ] <span style="font-size:20px">Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI. Create a button that will throw an error on click to test the functionality.</span>
