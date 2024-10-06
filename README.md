@@ -1,9 +1,9 @@
 ## Task list
-- [ ] <span style="font-size:20px">Initialize project.</span>
-- [ ] <span style="font-size:20px">Set up eslint to throw errors if any type is used.</span>
-- [ ] <span style="font-size:20px">Set up [eslint-plugin-react-compiler](https://www.npmjs.com/package/eslint-plugin-react-compiler).</span>
-- [ ] <span style="font-size:20px">Integrate Prettier for code formatting.</span>
-- [ ] <span style="font-size:20px">Add Husky and configure it to run linting on pre-commit.</span>
+- [x] <span style="font-size:20px">Initialize project.</span>
+- [x] <span style="font-size:20px">Set up eslint to throw errors if any type is used.</span>
+- [x] <span style="font-size:20px">Set up [eslint-plugin-react-compiler](https://www.npmjs.com/package/eslint-plugin-react-compiler).</span>
+- [x] <span style="font-size:20px">Integrate Prettier for code formatting.</span>
+- [ ] <span style="font-size:20px">Add Husky and configure it to run linting on pre-commit.</span> <span style="color:red">(Does not work)</span>  
 - [ ] <span style="font-size:20px">Add lint and format:fix npm scripts.</span>
 - [ ] <span style="font-size:20px">Integrate [https://pokeapi.co/](https://pokeapi.co/) API.</span>
 - [ ] <span style="font-size:20px">Set up three sections: header, main and footer.</span>
