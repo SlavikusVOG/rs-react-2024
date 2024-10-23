@@ -1,0 +1,25 @@
+.main__table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  /* visibility: hidden; */
+}
+
+.main__table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+  height: 1.5;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.main__table tbody {
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
