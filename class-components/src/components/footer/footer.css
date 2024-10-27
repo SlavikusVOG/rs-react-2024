@@ -1,0 +1,22 @@
+footer {
+  padding: 20px;
+  background-color: transparent;
+  color: #fff;
+  position: fixed;
+  bottom: 2rem;
+  height: 2rem;
+  right: 0px;
+  left: 0px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  display: inline;
+   margin: 0 10px;
+   display: inline;
+   margin: 0 10px;
+}
