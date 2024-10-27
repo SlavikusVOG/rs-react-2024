@@ -1,50 +1,15 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+## Task list
+- [x] <span style="font-size:20px">Initialize project.</span>
+- [x] <span style="font-size:20px">Set up eslint to throw errors if any type is used.</span>
+- [x] <span style="font-size:20px">Set up [eslint-plugin-react-compiler](https://www.npmjs.com/package/eslint-plugin-react-compiler).</span>
+- [x] <span style="font-size:20px">Integrate Prettier for code formatting.</span>
+- [ ] <span style="font-size:20px">Add Husky and configure it to run linting on pre-commit.</span> <span style="color:red">(Does not work)</span>  
+- [x] <span style="font-size:20px">Add lint and format:fix npm scripts.</span>
+- [x] <span style="font-size:20px">Integrate [https://pokeapi.co/](https://pokeapi.co/) API.</span>
+- [ ] <span style="font-size:20px">Set up three sections: header, main and footer.</span>
+- [ ] <span style="font-size:20px">Place search input and search button at the top section.</span>
+- [ ] <span style="font-size:20px">Main section should be used for displaying search results.</span>
+- [ ] <span style="font-size:20px">If input is empty, get all data.</span>
+- [ ] <span style="font-size:20px">Save search value to the Local Storage.</span>
+- [ ] <span style="font-size:20px">Implement Spinner, Skeleton, Loading Bar, Blurring Content, or any other appropriate method to indicate that app makes a request to the server API.</span>
+- [ ] <span style="font-size:20px">Wrap the application in an error boundary to catch errors. Report an error to the console and show a fallback UI. Create a button that will throw an error on click to test the functionality.</span>
